@@ -1,0 +1,36 @@
+---
+title: "Simple Dashboard with flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### A: Summary Stats of cars dataset
+
+```{r}
+summary(cars)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### B: Plot pressure data
+
+```{r}
+plot(pressure)
+```
+
+### C: Plot of cars data
+
+```{r}
+plot(cars)
+```
+

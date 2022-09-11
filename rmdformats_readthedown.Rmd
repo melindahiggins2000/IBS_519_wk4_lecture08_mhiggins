@@ -1,0 +1,31 @@
+---
+title: "A title for the document"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+```{r setup, include=FALSE}
+## Global options
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+# header 1
+
+some text
+
+## header 2
+
+some more text
+
+```{r}
+summary(mtcars)
+```
+
+## a plot
+
+```{r}
+plot(pressure)
+```
+
