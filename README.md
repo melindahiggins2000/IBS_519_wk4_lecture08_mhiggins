@@ -1,6 +1,6 @@
 # IBS_519_wk4_lecture08_mhiggins
 
-IBS 519 Week 4 Lecture 08 by Melinda Higgins: Reproducible Research and RMarkdown
+IBS 519 Week 4 Lecture by Melinda Higgins: Reproducible Research and RMarkdown
 
 ## Main Examples Today:
 

@@ -21,9 +21,9 @@ And we can have more text here.
 
 ## We can also do other text formatting
 
-We can easily make a word or phrase show up in **bold letters** by starting and ending with 2 asterisks or **starting and ending with 2 underscores**.
+We can easily make a word or phrase show up in **bold letters** by starting and ending with 2 asterisks or __starting and ending with 2 underscores__.
 
-We can also highlight some *words in italics* by starting and ending with a single underscore or starting *and ending with 1 asterisks*.
+We can also highlight some *words in italics* by starting and ending with a single underscore or starting _and ending with 1 asterisks_.
 
 You can also make text show up in non-proportional type font like `Courier font` by starting and ending with a back tick (usually at the upper left of your keyboard). This is often used when noting an R package like `dplyr` or wanting the reader to notice some specific code like `summary(abalone$rings)`.
 
@@ -46,9 +46,9 @@ You can also make an ordered list with numbers
     -   add item - hat
 2.  here is item 2 - with "numbered"/"ordered" list - notice that even though there are multiple items beginning with "b." - the output properly orders these items as a. b. c. d. and so on...
     a.  apple
-    b.  pear
-    c.  banana
-    d.  grapes
+    a.  pear
+    a.  banana
+    a.  grapes
 3.  here is another 3rd item
 
 ## Hyperlinks
@@ -82,3 +82,11 @@ Learn more about Rmarkdown at:
 -   <https://rmarkdown.rstudio.com/>
 -   [RMarkdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
 -   [RMarkdown Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+
+##
+
+here is the equation of best fit line
+
+$$ Y = bo + b1*x + e $$
+
+
